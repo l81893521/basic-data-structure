@@ -1,10 +1,9 @@
-package will.zhang.array;
+package will.zhang.stack;
 
 /**
  * @Author will
  * @Date 2018/4/30 0030 下午 3:19
  * 对数组进行二次封装
- * 动态数据时间复杂度分析
  *
  * 增 : 综合O(n)
  * addLast(E)       O(1) 均摊
@@ -21,7 +20,7 @@ package will.zhang.array;
  * contains(E)      O(n)
  * find(E)          O(n)
  **/
-public class GArray<T> {
+public class Array<T> {
 
     //存放数组的数组
     private T[] data;
@@ -33,12 +32,12 @@ public class GArray<T> {
      * 构造函数, 传入数组容量capacity构造Array
      * @param capacity
      */
-    public GArray(int capacity){
+    public Array(int capacity){
         data = (T[]) new Object[capacity];
         size = 0;
     }
 
-    public GArray(){
+    public Array(){
         this(10);
     }
 
@@ -258,7 +257,7 @@ public class GArray<T> {
     }
 
     public static void main(String[] args) {
-        GArray<Integer> arr = new GArray();
+        Array<Integer> arr = new Array();
         for (int i = 0; i < 10; i++) {
             arr.addLast(i);
         }
