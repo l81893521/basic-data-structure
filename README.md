@@ -13,4 +13,4 @@
 1. [盏的基本实现](https://github.com/l81893521/basic-data-structure/blob/master/src/main/java/will/zhang/stack/ArrayStack.java)
 
 ### 队列
-1. [数组队列的基本实现](https://github.com/l81893521/basic-data-structure/blob/master/src/main/java/will/zhang/queue/ArrayQueue.java)
+1. [数组队列](https://github.com/l81893521/basic-data-structure/blob/master/src/main/java/will/zhang/queue/ArrayQueue.java)
