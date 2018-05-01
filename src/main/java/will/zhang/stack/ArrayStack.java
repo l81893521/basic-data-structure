@@ -10,16 +10,16 @@ package will.zhang.stack;
  * int getSize()        O(1)
  * boolean isEmpty()    O(1)
  **/
-public class AArrayStack<E> implements Stack<E> {
+public class ArrayStack<E> implements Stack<E> {
 
     //使用上一章实现的动态数组来存放数据
     private Array<E> array;
 
-    public AArrayStack(int capacity){
+    public ArrayStack(int capacity){
         array = new Array(capacity);
     }
 
-    public AArrayStack(){
+    public ArrayStack(){
         array = new Array();
     }
 
@@ -72,7 +72,7 @@ public class AArrayStack<E> implements Stack<E> {
     }
 
     public static void main(String[] args) {
-        AArrayStack<Integer> stack = new AArrayStack<>();
+        ArrayStack<Integer> stack = new ArrayStack<>();
         for (int i = 0; i < 5; i++) {
             stack.push(i);
             System.out.println(stack);

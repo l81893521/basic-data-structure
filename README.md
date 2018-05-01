@@ -10,4 +10,6 @@
 7. [预防复杂度震荡](https://github.com/l81893521/basic-data-structure/blob/master/src/main/java/will/zhang/array/GArray.java)
 
 ### 盏(Stack)
-1. [盏的基本实现](https://github.com/l81893521/basic-data-structure/blob/master/src/main/java/will/zhang/stack/AArrayStack.java)
+1. [盏的基本实现](https://github.com/l81893521/basic-data-structure/blob/master/src/main/java/will/zhang/stack/ArrayStack.java)
+
+### 队列
