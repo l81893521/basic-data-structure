@@ -7,3 +7,4 @@
 4. [搜索和删除元素](https://github.com/l81893521/basic-data-structure/blob/master/src/main/java/will/zhang/array/DArray.java)
 5. [使用泛型](https://github.com/l81893521/basic-data-structure/blob/master/src/main/java/will/zhang/array/EArray.java)
 6. [动态数组](https://github.com/l81893521/basic-data-structure/blob/master/src/main/java/will/zhang/array/FArray.java)
+7. [预防复杂度震荡](https://github.com/l81893521/basic-data-structure/blob/master/src/main/java/will/zhang/array/GArray.java)
