@@ -14,7 +14,8 @@
 
 ### 队列(ArrayDeque, ArrayBlockingQueue)
 1. [数组队列](https://github.com/l81893521/basic-data-structure/blob/master/src/main/java/will/zhang/queue/ArrayQueue.java)
-1. [循环队列](https://github.com/l81893521/basic-data-structure/blob/master/src/main/java/will/zhang/queue/LoopQueue.java)
+2. [循环队列](https://github.com/l81893521/basic-data-structure/blob/master/src/main/java/will/zhang/queue/LoopQueue.java)
 
 ### 链表
 1. [链表的基本结构](https://github.com/l81893521/basic-data-structure/blob/master/src/main/java/will/zhang/linkList/ALinkList.java)
+2. [往链表添加元素](https://github.com/l81893521/basic-data-structure/blob/master/src/main/java/will/zhang/linkList/BLinkList.java)
