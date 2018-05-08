@@ -19,3 +19,4 @@
 ### 链表
 1. [链表的基本结构](https://github.com/l81893521/basic-data-structure/blob/master/src/main/java/will/zhang/linkList/ALinkList.java)
 2. [往链表添加元素](https://github.com/l81893521/basic-data-structure/blob/master/src/main/java/will/zhang/linkList/BLinkList.java)
+3. [为链表添加虚拟头节点](https://github.com/l81893521/basic-data-structure/blob/master/src/main/java/will/zhang/linkList/CLinkList.java)
