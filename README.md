@@ -18,10 +18,11 @@
 1. [队列的基本接口定义](https://github.com/l81893521/basic-data-structure/blob/master/src/main/java/will/zhang/queue/Queue.java)
 2. [数组队列](https://github.com/l81893521/basic-data-structure/blob/master/src/main/java/will/zhang/queue/ArrayQueue.java)
 3. [循环队列](https://github.com/l81893521/basic-data-structure/blob/master/src/main/java/will/zhang/queue/LoopQueue.java)
+4. [链表队列](https://github.com/l81893521/basic-data-structure/blob/master/src/main/java/will/zhang/queue/LinkedListQueue.java)
 
 ### 链表(LinkedList)
 1. [链表的基本结构](https://github.com/l81893521/basic-data-structure/blob/master/src/main/java/will/zhang/linkList/ALinkList.java)
 2. [往链表添加元素](https://github.com/l81893521/basic-data-structure/blob/master/src/main/java/will/zhang/linkList/BLinkList.java)
 3. [为链表添加虚拟头节点](https://github.com/l81893521/basic-data-structure/blob/master/src/main/java/will/zhang/linkList/CLinkList.java)
 4. [链表的遍历,查询和修改](https://github.com/l81893521/basic-data-structure/blob/master/src/main/java/will/zhang/linkList/DLinkList.java)
-4. [链表的删除](https://github.com/l81893521/basic-data-structure/blob/master/src/main/java/will/zhang/linkList/ELinkList.java)
+5. [链表的删除](https://github.com/l81893521/basic-data-structure/blob/master/src/main/java/will/zhang/linkList/ELinkList.java)
