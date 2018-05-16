@@ -26,3 +26,6 @@
 3. [为链表添加虚拟头节点](https://github.com/l81893521/basic-data-structure/blob/master/src/main/java/will/zhang/linkList/CLinkList.java)
 4. [链表的遍历,查询和修改](https://github.com/l81893521/basic-data-structure/blob/master/src/main/java/will/zhang/linkList/DLinkList.java)
 5. [链表的删除](https://github.com/l81893521/basic-data-structure/blob/master/src/main/java/will/zhang/linkList/ELinkList.java)
+
+### 二分搜索树
+1. [二分搜索树基础](https://github.com/l81893521/basic-data-structure/blob/master/src/main/java/will/zhang/binarySearchTree/ABinarySearchTree.java)
