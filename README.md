@@ -32,4 +32,4 @@
 2. [往二分搜索树添加元素](https://github.com/l81893521/basic-data-structure/blob/master/src/main/java/will/zhang/binarySearchTree/BBinarySearchTree.java)
 3. [优化添加方法](https://github.com/l81893521/basic-data-structure/blob/master/src/main/java/will/zhang/binarySearchTree/CBinarySearchTree.java)
 4. [二分搜索树查询操作](https://github.com/l81893521/basic-data-structure/blob/master/src/main/java/will/zhang/binarySearchTree/DBinarySearchTree.java)
-5. [二分搜索树查询操作](https://github.com/l81893521/basic-data-structure/blob/master/src/main/java/will/zhang/binarySearchTree/EBinarySearchTree.java)
+5. [二分搜索树的前序遍历](https://github.com/l81893521/basic-data-structure/blob/master/src/main/java/will/zhang/binarySearchTree/EBinarySearchTree.java)
