@@ -30,3 +30,4 @@
 ### 二分搜索树
 1. [二分搜索树基础](https://github.com/l81893521/basic-data-structure/blob/master/src/main/java/will/zhang/binarySearchTree/ABinarySearchTree.java)
 2. [往二分搜索树添加元素](https://github.com/l81893521/basic-data-structure/blob/master/src/main/java/will/zhang/binarySearchTree/BBinarySearchTree.java)
+3. [优化添加方法](https://github.com/l81893521/basic-data-structure/blob/master/src/main/java/will/zhang/binarySearchTree/CBinarySearchTree.java)
