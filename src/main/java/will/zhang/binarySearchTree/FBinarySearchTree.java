@@ -133,6 +133,44 @@ public class FBinarySearchTree<E extends Comparable<E>> {
 
     }
 
+    /**
+     * 中序遍历
+     */
+    public void inOrder(){
+        inOrder(root);
+    }
+
+    /**
+     * 中序遍历以node为根的二分搜索树
+     * @param node
+     */
+    private void inOrder(Node node){
+        if(node == null) return;
+
+        inOrder(node.left);
+        System.out.println(node.e);
+        inOrder(node.right);
+    }
+
+    /**
+     * 后序遍历
+     */
+    public void postOrder(){
+        postOrder(root);
+    }
+
+    /**
+     * 后序遍历以node为根的二分搜索树
+     * @param node
+     */
+    private void postOrder(Node node){
+        if(node == null) return;
+
+        postOrder(node.left);
+        postOrder(node.right);
+        System.out.println(node.e);
+    }
+
     /*
      * ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
      * 打印方法，非二叉搜索树主体
@@ -175,6 +213,9 @@ public class FBinarySearchTree<E extends Comparable<E>> {
         }
         binarySearchTree.preOrder();
         System.out.println();
-        System.out.println(binarySearchTree);
+        binarySearchTree.inOrder();
+        System.out.println();
+        binarySearchTree.postOrder();
+        //System.out.println(binarySearchTree);
     }
 }
