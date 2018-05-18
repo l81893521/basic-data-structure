@@ -34,4 +34,5 @@
 4. [二分搜索树查询操作](https://github.com/l81893521/basic-data-structure/blob/master/src/main/java/will/zhang/binarySearchTree/DBinarySearchTree.java)
 5. [二分搜索树的前序遍历](https://github.com/l81893521/basic-data-structure/blob/master/src/main/java/will/zhang/binarySearchTree/EBinarySearchTree.java)
 6. [二分搜索树的前序遍历和后序遍历](https://github.com/l81893521/basic-data-structure/blob/master/src/main/java/will/zhang/binarySearchTree/FBinarySearchTree.java)
-6. [二分搜索树的层序遍历](https://github.com/l81893521/basic-data-structure/blob/master/src/main/java/will/zhang/binarySearchTree/GBinarySearchTree.java)
+7. [二分搜索树的层序遍历](https://github.com/l81893521/basic-data-structure/blob/master/src/main/java/will/zhang/binarySearchTree/GBinarySearchTree.java)
+8. [删除最大元素和最小元素](https://github.com/l81893521/basic-data-structure/blob/master/src/main/java/will/zhang/binarySearchTree/HBinarySearchTree.java)
