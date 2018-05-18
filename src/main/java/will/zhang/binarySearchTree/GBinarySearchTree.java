@@ -1,10 +1,14 @@
 package will.zhang.binarySearchTree;
 
+import java.util.ArrayDeque;
+import java.util.Deque;
+import java.util.Queue;
+
 /**
  * @Author will
  * @Date 2018/5/16 0016 下午 6:32
  **/
-public class FBinarySearchTree<E extends Comparable<E>> {
+public class GBinarySearchTree<E extends Comparable<E>> {
 
     /**
      * 节点
@@ -37,7 +41,7 @@ public class FBinarySearchTree<E extends Comparable<E>> {
     /**
      * 默认构造函数
      */
-    public FBinarySearchTree(){
+    public GBinarySearchTree(){
         root = null;
         size = 0;
     }
@@ -171,6 +175,26 @@ public class FBinarySearchTree<E extends Comparable<E>> {
         System.out.println(node.e);
     }
 
+    /**
+     * 二分搜索树的层序遍历
+     */
+    private void levelOrder(){
+        Queue<Node> queue = new ArrayDeque<>();
+        queue.add(root);
+
+        while(!queue.isEmpty()){
+            Node node = queue.remove();
+            System.out.println(node.e);
+
+            if(node.left != null){
+                queue.add(node.left);
+            }
+            if(node.right != null){
+                queue.add(node.right);
+            }
+        }
+    }
+
     /*
      * ↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓
      * 打印方法，非二叉搜索树主体
@@ -206,17 +230,12 @@ public class FBinarySearchTree<E extends Comparable<E>> {
 
 
     public static void main(String[] args) {
-        FBinarySearchTree<Integer> binarySearchTree = new FBinarySearchTree<>();
+        GBinarySearchTree<Integer> binarySearchTree = new GBinarySearchTree<>();
         int[] nums = {5, 3, 6, 8, 4, 2};
         for (int num : nums) {
             binarySearchTree.add(num);
 
         }
-        binarySearchTree.preOrder();
-        System.out.println();
-        binarySearchTree.inOrder();
-        System.out.println();
-        binarySearchTree.postOrder();
-        //System.out.println(binarySearchTree);
+        binarySearchTree.levelOrder();
     }
 }
