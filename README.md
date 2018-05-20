@@ -45,4 +45,5 @@
 
 ### 映射(Map)
 1. [映射的基本接口定义](https://github.com/l81893521/basic-data-structure/blob/master/src/main/java/will/zhang/map/Map.java)
-1. [使用链表实现Map](https://github.com/l81893521/basic-data-structure/blob/master/src/main/java/will/zhang/map/LinkedListMap.java)
+2. [使用链表实现Map](https://github.com/l81893521/basic-data-structure/blob/master/src/main/java/will/zhang/map/LinkedListMap.java)
+3. [使用二分搜索树实现Map](https://github.com/l81893521/basic-data-structure/blob/master/src/main/java/will/zhang/map/BinarySearchTreeMap.java)

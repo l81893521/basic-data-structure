@@ -1,5 +1,10 @@
 package will.zhang.map;
 
+/**
+ * 基于链表实现的映射(Map)
+ * @param <K>
+ * @param <V>
+ */
 public class LinkedListMap<K, V> implements Map<K, V> {
 
     //还是有一个虚拟的头指针
