@@ -38,7 +38,10 @@
 8. [删除最大元素和最小元素](https://github.com/l81893521/basic-data-structure/blob/master/src/main/java/will/zhang/binarySearchTree/HBinarySearchTree.java)
 9. [删除任意元素](https://github.com/l81893521/basic-data-structure/blob/master/src/main/java/will/zhang/binarySearchTree/IBinarySearchTree.java)
 
-### 集合与映射
+### 集合(Set)
 1. [集合的基本接口定义](https://github.com/l81893521/basic-data-structure/blob/master/src/main/java/will/zhang/set/Set.java)
 2. [使用二分搜索树实现集合](https://github.com/l81893521/basic-data-structure/blob/master/src/main/java/will/zhang/set/BinarySearchTreeSet.java)
 3. [使用链表实现集合](https://github.com/l81893521/basic-data-structure/blob/master/src/main/java/will/zhang/set/LinkedListSet.java)
+
+### 映射(Map)
+1. [映射的基本接口定义](https://github.com/l81893521/basic-data-structure/blob/master/src/main/java/will/zhang/map/Map.java)

@@ -1,5 +1,17 @@
 package will.zhang.set;
 
+/**
+ * 基于链表实现的集合
+ *
+ * 时间复杂度分析
+ * 添加
+ * add(e)   O(n)
+ * 查
+ * contains(e)  O(n)
+ * 删
+ * remove(e)    O(n)
+ * @param <E>
+ */
 public class LinkedListSet<E> implements Set<E> {
 
     private LinkedList<E> linkedList;

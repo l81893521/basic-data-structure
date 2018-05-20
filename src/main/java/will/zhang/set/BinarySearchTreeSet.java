@@ -2,6 +2,14 @@ package will.zhang.set;
 
 /**
  * 基于二分搜索树实现的集合
+ *
+ * 时间复杂度分析(h=树的高度)
+ * 增
+ * add(e)   O(logn)
+ * 查
+ * contains(e)  O(logn)
+ * 删
+ * remove(e)    O(logn)
  * @param <E>
  */
 public class BinarySearchTreeSet<E extends Comparable<E>> implements Set<E> {
