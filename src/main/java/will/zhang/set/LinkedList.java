@@ -1,4 +1,4 @@
-package will.zhang.linkList;
+package will.zhang.set;
 
 /**
  * @Author will
@@ -23,7 +23,7 @@ package will.zhang.linkList;
  * contains(e)      O(n)
  *
  **/
-public class ELinkList<E> {
+public class LinkedList<E> {
 
     //为了方便让整个链表的所有节点都拥有上一个节点, 所以设立虚拟头节点
     //链表的虚拟头节点, 不存放任何元素, 第一个节点是hummyHead.next
@@ -31,7 +31,7 @@ public class ELinkList<E> {
     //链表的元素个数
     private int size;
 
-    public ELinkList(){
+    public LinkedList(){
         //对于一个空的链表来说, 是存在一个对用户不可见的虚拟头节点
         dummyHead = new Node(null, null);
         size = 0;
@@ -243,8 +243,6 @@ public class ELinkList<E> {
         return remove(size - 1);
     }
 
-
-
     @Override
     public String toString(){
         StringBuilder builder = new StringBuilder();
@@ -287,7 +285,7 @@ public class ELinkList<E> {
     }
 
     public static void main(String[] args) {
-        ELinkList<Integer> linkList = new ELinkList();
+        LinkedList<Integer> linkList = new LinkedList();
         for (int i = 0; i < 5; i++) {
             linkList.addFirst(i);
             System.out.println(linkList);

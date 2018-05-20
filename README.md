@@ -41,3 +41,4 @@
 ### 集合与映射
 1. [集合的基本接口定义](https://github.com/l81893521/basic-data-structure/blob/master/src/main/java/will/zhang/set/Set.java)
 2. [使用二分搜索树实现集合](https://github.com/l81893521/basic-data-structure/blob/master/src/main/java/will/zhang/set/BinarySearchTreeSet.java)
+3. [使用链表实现集合](https://github.com/l81893521/basic-data-structure/blob/master/src/main/java/will/zhang/set/LinkedListSet.java)
