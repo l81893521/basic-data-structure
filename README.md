@@ -52,3 +52,4 @@
 1. [堆的基本定义](https://github.com/l81893521/basic-data-structure/blob/master/src/main/java/will/zhang/heap/AMaxHeap.java)
 2. [往堆中添加元素和siftUp](https://github.com/l81893521/basic-data-structure/blob/master/src/main/java/will/zhang/heap/BMaxHeap.java)
 3. [从堆中取出元素和siftDown](https://github.com/l81893521/basic-data-structure/blob/master/src/main/java/will/zhang/heap/CMaxHeap.java)
+3. [Heapify和Replace](https://github.com/l81893521/basic-data-structure/blob/master/src/main/java/will/zhang/heap/DMaxHeap.java)

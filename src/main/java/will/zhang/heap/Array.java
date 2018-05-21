@@ -38,6 +38,18 @@ public class Array<T> {
         size = 0;
     }
 
+    /**
+     * 传入一个数组构造一个动态数组
+     * @param arr
+     */
+    public Array(T[] arr){
+        data = (T[]) new Object[arr.length];
+        for (int i = 0; i < arr.length; i++) {
+            data[i] = arr[i];
+        }
+        size = arr.length;
+    }
+
     public Array(){
         this(10);
     }
