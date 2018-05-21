@@ -104,6 +104,20 @@ public class Array<T> {
 
     }
 
+    /**
+     * 交换索引i和索引j的元素
+     * @param i
+     * @param j
+     */
+    public void swap(int i, int j){
+        if(i < 0 || j < 0 || i >= size || j >= size){
+            throw new IllegalArgumentException("Index is illegal");
+        }
+        T t = data[i];
+        data[i] = data[j];
+        data[j] = t;
+    }
+
     @Override
     public String toString(){
         StringBuilder builder = new StringBuilder();
