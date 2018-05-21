@@ -3,6 +3,17 @@ package will.zhang.map;
 
 /**
  * 基于二分搜索树实现的映射(Map)
+ *
+ * 时间复杂度分析
+ * 增
+ * add(K, V)    O(logn)
+ * 删
+ * remove(K)    O(logn)
+ * 改
+ * set(K, V)    O(logn)
+ * 查
+ * get(K)       O(logn)
+ * contains(K)  O(logn)
  */
 public class BinarySearchTreeMap<K extends Comparable, V> implements Map<K, V> {
 

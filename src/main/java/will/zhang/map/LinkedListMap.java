@@ -2,6 +2,17 @@ package will.zhang.map;
 
 /**
  * 基于链表实现的映射(Map)
+ *
+ * 时间复杂度分析
+ * 增
+ * add(K, V)    O(n)
+ * 删
+ * remove(K)    O(n)
+ * 改
+ * set(K, V)    O(n)
+ * 查
+ * get(K)       O(n)
+ * contains(K)  O(n)
  * @param <K>
  * @param <V>
  */
