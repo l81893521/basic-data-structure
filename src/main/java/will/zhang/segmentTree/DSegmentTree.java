@@ -153,7 +153,7 @@ public class DSegmentTree<E> {
 
         //还有一种情况, 就是要查询的区间一部分在左边, 一部分在右边
         E leftResult = query(leftChildIndex, l, mid , queryL, mid);
-        E rightResult = query(rightChildIndex, mid + 1, r , mid + 1, r);
+        E rightResult = query(rightChildIndex, mid + 1, r , mid + 1, queryR);
 
         return merger.merge(leftResult, rightResult);
 
