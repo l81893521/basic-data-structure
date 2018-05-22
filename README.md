@@ -61,7 +61,7 @@
 3. [线段树的区间查询](https://github.com/l81893521/basic-data-structure/blob/master/src/main/java/will/zhang/segmentTree/CSegmentTree.java)
 4. [线段树的更新操作](https://github.com/l81893521/basic-data-structure/blob/master/src/main/java/will/zhang/segmentTree/DSegmentTree.java)
 
-### 字典树(Trie)
+### 字典树(又名前缀树)(Trie)
 1. [Trie字典树的基础](https://github.com/l81893521/basic-data-structure/blob/master/src/main/java/will/zhang/trie/ATrie.java)
 2. [Trie字典树的查询](https://github.com/l81893521/basic-data-structure/blob/master/src/main/java/will/zhang/trie/BTrie.java)
 3. [Trie字典树的前缀查询](https://github.com/l81893521/basic-data-structure/blob/master/src/main/java/will/zhang/trie/BTrie.java)
