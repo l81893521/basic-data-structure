@@ -57,3 +57,4 @@
 
 ### 线段树
 1. [线段树的基础](https://github.com/l81893521/basic-data-structure/blob/master/src/main/java/will/zhang/segmentTree/ASegmentTree.java)
+1. [创建线段树](https://github.com/l81893521/basic-data-structure/blob/master/src/main/java/will/zhang/segmentTree/BSegmentTree.java)
