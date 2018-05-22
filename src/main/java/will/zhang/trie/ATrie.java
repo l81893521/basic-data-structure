@@ -8,7 +8,7 @@ import java.util.TreeMap;
  */
 public class ATrie {
 
-    //节点
+    //根节点
     private Node root;
     //Trie中单词的个数
     private int size;
