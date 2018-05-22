@@ -57,4 +57,6 @@
 
 ### 线段树
 1. [线段树的基础](https://github.com/l81893521/basic-data-structure/blob/master/src/main/java/will/zhang/segmentTree/ASegmentTree.java)
-1. [创建线段树](https://github.com/l81893521/basic-data-structure/blob/master/src/main/java/will/zhang/segmentTree/BSegmentTree.java)
+2. [创建线段树](https://github.com/l81893521/basic-data-structure/blob/master/src/main/java/will/zhang/segmentTree/BSegmentTree.java)
+3. [线段树的区间查询](https://github.com/l81893521/basic-data-structure/blob/master/src/main/java/will/zhang/segmentTree/CSegmentTree.java)
+4. [线段树的更新操作](https://github.com/l81893521/basic-data-structure/blob/master/src/main/java/will/zhang/segmentTree/DSegmentTree.java)
