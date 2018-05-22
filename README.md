@@ -63,4 +63,5 @@
 
 ### Trie
 1. [Trie字典树的基础](https://github.com/l81893521/basic-data-structure/blob/master/src/main/java/will/zhang/trie/ATrie.java)
-1. [Trie字典树的查询](https://github.com/l81893521/basic-data-structure/blob/master/src/main/java/will/zhang/trie/BTrie.java)
+2. [Trie字典树的查询](https://github.com/l81893521/basic-data-structure/blob/master/src/main/java/will/zhang/trie/BTrie.java)
+3. [Trie字典树的前缀查询](https://github.com/l81893521/basic-data-structure/blob/master/src/main/java/will/zhang/trie/BTrie.java)
