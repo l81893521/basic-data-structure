@@ -68,4 +68,5 @@
 
 ### 并查集(Union Find)
 1. [并查集的基本定义](https://github.com/l81893521/basic-data-structure/blob/master/src/main/java/will/zhang/unionFind/UF.java)
-1. [QuickUnion](https://github.com/l81893521/basic-data-structure/blob/master/src/main/java/will/zhang/unionFind/AUnionFind.java)
+1. [QuickFind](https://github.com/l81893521/basic-data-structure/blob/master/src/main/java/will/zhang/unionFind/AUnionFind.java)
+1. [QuickUnion](https://github.com/l81893521/basic-data-structure/blob/master/src/main/java/will/zhang/unionFind/BUnionFind.java)
