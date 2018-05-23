@@ -21,5 +21,5 @@ public interface UF {
      * @param q
      * @return
      */
-    boolean unionElements(int p, int q);
+    void unionElements(int p, int q);
 }
