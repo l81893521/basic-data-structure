@@ -73,3 +73,4 @@
 4. [基于size的优化](https://github.com/l81893521/basic-data-structure/blob/master/src/main/java/will/zhang/unionFind/CUnionFind.java)
 5. [基于rank的优化](https://github.com/l81893521/basic-data-structure/blob/master/src/main/java/will/zhang/unionFind/DUnionFind.java)
 6. [路径压缩](https://github.com/l81893521/basic-data-structure/blob/master/src/main/java/will/zhang/unionFind/EUnionFind.java)
+6. [路径压缩2](https://github.com/l81893521/basic-data-structure/blob/master/src/main/java/will/zhang/unionFind/FUnionFind.java)
