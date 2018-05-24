@@ -6,13 +6,13 @@ import java.util.ArrayList;
 /**
  * AVL树, 是一颗基于二分搜索树实现的平衡二叉树
  */
-public class CAVLTree<K extends Comparable, V>{
+public class DAVLTree<K extends Comparable, V>{
 
     //根节点
     private Node root;
     private int size;
 
-    public CAVLTree(){
+    public DAVLTree(){
         root = null;
         size = 0;
     }
@@ -54,17 +54,24 @@ public class CAVLTree<K extends Comparable, V>{
 
         //计算平衡因子
         int balanceFactor = getBalanceFactor(node);
-        //平衡因子大于1, 已经不满足平衡二叉树的条件了
-        if(Math.abs(balanceFactor) > 1){
-            System.out.println("unbalanced : " + balanceFactor);
-        }
 
-        //平衡维护, 进行右旋转操作
+        //平衡维护(LL), 进行右旋转操作
         if(balanceFactor > 1 && getBalanceFactor(node.left) >= 0){
             return rightRotate(node);
         }
-        //平衡维护, 进行左旋转操作
+        //平衡维护(RR), 进行左旋转操作
         if(balanceFactor < -1 && getBalanceFactor(node.right) <= 0){
+            return leftRotate(node);
+        }
+
+        //平衡维护(LR), 进行左旋再右旋操作
+        if(balanceFactor > 1 && getBalanceFactor((node.left)) < 0){
+            node.left = leftRotate(node.left);
+            return rightRotate(node);
+        }
+        //平衡维护(RL), 进行右旋再左旋操作
+        if(balanceFactor < -1 && getBalanceFactor(node.right) > 0){
+            node.right = rightRotate(node.right);
             return leftRotate(node);
         }
         return node;

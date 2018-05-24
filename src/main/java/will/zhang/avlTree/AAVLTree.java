@@ -63,6 +63,11 @@ public class AAVLTree<K extends Comparable, V>{
         return node;
     }
 
+    /**
+     * 删除键等于key的节点
+     * @param key
+     * @return
+     */
     public V remove(K key) {
         Node node = getNode(root, key);
         if(node != null){
@@ -119,15 +124,30 @@ public class AAVLTree<K extends Comparable, V>{
         }
     }
 
+    /**
+     * 是否存在节点key
+     * @param key
+     * @return
+     */
     public boolean contains(K key) {
         return getNode(root, key) != null;
     }
 
+    /**
+     * 获取节点key
+     * @param key
+     * @return
+     */
     public V get(K key) {
         Node node = getNode(root, key);
         return node == null ? null : node.value;
     }
 
+    /**
+     * 更新节点key的值
+     * @param key
+     * @param newValue
+     */
     public void set(K key, V newValue) {
         Node node = getNode(root, key);
         if(node == null){
@@ -136,10 +156,18 @@ public class AAVLTree<K extends Comparable, V>{
         node.value = newValue;
     }
 
+    /**
+     * 获取二分搜索树节点的个数
+     * @return
+     */
     public int getSize() {
         return size;
     }
 
+    /**
+     * 当前二分搜索树是否为空
+     * @return
+     */
     public boolean isEmpty() {
         return size == 0;
     }
