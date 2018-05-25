@@ -42,11 +42,13 @@
 1. [集合的基本接口定义](https://github.com/l81893521/basic-data-structure/blob/master/src/main/java/will/zhang/set/Set.java)
 2. [使用二分搜索树实现集合](https://github.com/l81893521/basic-data-structure/blob/master/src/main/java/will/zhang/set/BinarySearchTreeSet.java)
 3. [使用链表实现集合](https://github.com/l81893521/basic-data-structure/blob/master/src/main/java/will/zhang/set/LinkedListSet.java)
+3. [使用AVL树实现集合](https://github.com/l81893521/basic-data-structure/blob/master/src/main/java/will/zhang/set/AVLSet.java)
 
 ### 映射(Map)
 1. [映射的基本接口定义](https://github.com/l81893521/basic-data-structure/blob/master/src/main/java/will/zhang/map/Map.java)
 2. [使用链表实现Map](https://github.com/l81893521/basic-data-structure/blob/master/src/main/java/will/zhang/map/LinkedListMap.java)
 3. [使用二分搜索树实现Map](https://github.com/l81893521/basic-data-structure/blob/master/src/main/java/will/zhang/map/BinarySearchTreeMap.java)
+3. [使用AVL树实现Map](https://github.com/l81893521/basic-data-structure/blob/master/src/main/java/will/zhang/map/AVLMap.java)
 
 ### 优先队列和堆(PriorityQueue)
 1. [堆的基本定义](https://github.com/l81893521/basic-data-structure/blob/master/src/main/java/will/zhang/heap/AMaxHeap.java)
@@ -80,3 +82,4 @@
 2. [检查二分搜索树性质和平衡性](https://github.com/l81893521/basic-data-structure/blob/master/src/main/java/will/zhang/avlTree/BAVLTree.java)
 3. [左旋转和右旋转的实现](https://github.com/l81893521/basic-data-structure/blob/master/src/main/java/will/zhang/avlTree/CAVLTree.java)
 4. [LR和RL](https://github.com/l81893521/basic-data-structure/blob/master/src/main/java/will/zhang/avlTree/DAVLTree.java)
+4. [从AVL树中删除元素](https://github.com/l81893521/basic-data-structure/blob/master/src/main/java/will/zhang/avlTree/EAVLTree.java)
