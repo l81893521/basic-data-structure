@@ -9,10 +9,10 @@
 6. [动态数组](https://github.com/l81893521/basic-data-structure/blob/master/src/main/java/will/zhang/array/FArray.java)
 7. [预防复杂度震荡](https://github.com/l81893521/basic-data-structure/blob/master/src/main/java/will/zhang/array/GArray.java)
 
-### 盏(Stack)
-1. [盏的基本接口定义](https://github.com/l81893521/basic-data-structure/blob/master/src/main/java/will/zhang/stack/Stack.java)
-2. [使用动态数组实现盏](https://github.com/l81893521/basic-data-structure/blob/master/src/main/java/will/zhang/stack/ArrayStack.java)
-3. [使用链表实现盏](https://github.com/l81893521/basic-data-structure/blob/master/src/main/java/will/zhang/stack/LinkedListStack.java)
+### 栈(Stack)
+1. [栈的基本接口定义](https://github.com/l81893521/basic-data-structure/blob/master/src/main/java/will/zhang/stack/Stack.java)
+2. [使用动态数组实现栈](https://github.com/l81893521/basic-data-structure/blob/master/src/main/java/will/zhang/stack/ArrayStack.java)
+3. [使用链表实现栈](https://github.com/l81893521/basic-data-structure/blob/master/src/main/java/will/zhang/stack/LinkedListStack.java)
 
 ### 队列(ArrayDeque, ArrayBlockingQueue)
 1. [队列的基本接口定义](https://github.com/l81893521/basic-data-structure/blob/master/src/main/java/will/zhang/queue/Queue.java)
