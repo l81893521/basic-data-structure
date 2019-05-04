@@ -75,6 +75,7 @@ public class BArray {
         if(size == data.length){
             throw new IllegalArgumentException("Add failed. Array is full");
         }
+        //如果index比size还大, 那么意味着元素不是紧密的排列, 所以要抛出异常
         if(index < 0 || index > size){
             throw new IllegalArgumentException("Add failed. Require index >= 0 and index <= size");
         }
