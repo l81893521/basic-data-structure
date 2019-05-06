@@ -217,6 +217,6 @@ public class FBinarySearchTree<E extends Comparable<E>> {
         binarySearchTree.inOrder();
         System.out.println();
         binarySearchTree.postOrder();
-        //System.out.println(binarySearchTree);
+//        System.out.println(binarySearchTree);
     }
 }

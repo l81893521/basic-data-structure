@@ -85,6 +85,5 @@ public class BArray {
         }
         data[index] = e;
         size++;
-
     }
 }
