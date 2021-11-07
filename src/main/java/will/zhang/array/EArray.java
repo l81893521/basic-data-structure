@@ -173,6 +173,7 @@ public class EArray<T> {
         size--;
         //只是为了去除引用, 满足垃圾回收条件, 释放内存
         //data[size]存在值, 也不会影响数组的正常使用, 添加新值也会自动覆盖
+        //避免对象游离(游离对象 loitering objects)
         //loitering objects != memory leak
         data[size] = null;
         return result;
