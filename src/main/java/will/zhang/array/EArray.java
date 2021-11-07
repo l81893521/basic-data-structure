@@ -3,7 +3,8 @@ package will.zhang.array;
 /**
  * @Author will
  * @Date 2018/4/30 0030 下午 3:19
- * 对数组进行二次封装
+ * 改为泛型
+ * 优化垃圾回收
  **/
 public class EArray<T> {
 
@@ -13,6 +14,10 @@ public class EArray<T> {
     //data数组中有多少个有效的元素
     private int size;
 
+    public EArray(){
+        this(10);
+    }
+
     /**
      * 构造函数, 传入数组容量capacity构造Array
      * @param capacity
@@ -20,10 +25,6 @@ public class EArray<T> {
     public EArray(int capacity){
         data = (T[]) new Object[capacity];
         size = 0;
-    }
-
-    public EArray(){
-        this(10);
     }
 
     /**

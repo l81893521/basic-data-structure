@@ -3,7 +3,7 @@ package will.zhang.array;
 /**
  * @Author will
  * @Date 2018/4/30 0030 下午 3:19
- * 对数组进行二次封装
+ * 增加contains find 和 remove
  **/
 public class DArray {
 
@@ -13,6 +13,10 @@ public class DArray {
     //data数组中有多少个有效的元素
     private int size;
 
+    public DArray(){
+        this(10);
+    }
+
     /**
      * 构造函数, 传入数组容量capacity构造Array
      * @param capacity
@@ -20,10 +24,6 @@ public class DArray {
     public DArray(int capacity){
         data = new int[capacity];
         size = 0;
-    }
-
-    public DArray(){
-        this(10);
     }
 
     /**

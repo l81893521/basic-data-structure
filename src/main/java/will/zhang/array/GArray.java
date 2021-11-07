@@ -3,7 +3,7 @@ package will.zhang.array;
 /**
  * @Author will
  * @Date 2018/4/30 0030 下午 3:19
- * 对数组进行二次封装
+ * lazy缩容 防止复杂度震荡
  * 动态数据时间复杂度分析
  *
  * 增 : 综合O(n)

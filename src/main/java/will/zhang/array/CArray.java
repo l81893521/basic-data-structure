@@ -1,11 +1,9 @@
 package will.zhang.array;
 
-import java.util.Arrays;
-
 /**
  * @Author will
  * @Date 2018/4/30 0030 下午 3:19
- * 对数组进行二次封装
+ * 增加get set方法
  **/
 public class CArray {
 
@@ -15,6 +13,10 @@ public class CArray {
     //data数组中有多少个有效的元素
     private int size;
 
+    public CArray(){
+        this(10);
+    }
+
     /**
      * 构造函数, 传入数组容量capacity构造Array
      * @param capacity
@@ -22,10 +24,6 @@ public class CArray {
     public CArray(int capacity){
         data = new int[capacity];
         size = 0;
-    }
-
-    public CArray(){
-        this(10);
     }
 
     /**

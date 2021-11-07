@@ -13,6 +13,10 @@ public class AArray {
     //data数组中有多少个有效的元素
     private int size;
 
+    public AArray(){
+        this(10);
+    }
+
     /**
      * 构造函数, 传入数组容量capacity构造Array
      * @param capacity
@@ -20,10 +24,6 @@ public class AArray {
     public AArray(int capacity){
         data = new int[capacity];
         size = 0;
-    }
-
-    public AArray(){
-        this(10);
     }
 
     /**
