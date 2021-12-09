@@ -3,6 +3,7 @@ package will.zhang.linkList;
 /**
  * @Author will
  * @Date 2018/5/2 0002 下午 8:31
+ * 编写必须的Node节点对象
  **/
 public class ALinkList<E> {
 

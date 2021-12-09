@@ -1,10 +1,9 @@
 package will.zhang.linkList;
 
-import java.util.Arrays;
-
 /**
  * @Author will
  * @Date 2018/5/2 0002 下午 8:31
+ * 实现getSize isEmpty add
  **/
 public class BLinkList<E> {
 
