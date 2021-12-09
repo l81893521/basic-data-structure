@@ -17,17 +17,17 @@ public class ALinkList<E> {
         //下一个节点
         public Node next;
 
-        public Node(E e, Node next){
-            this.e = e;
-            this.next = next;
+        public Node(){
+            this(null, null);
         }
 
         public Node(E e){
             this(e, null);
         }
 
-        public Node(){
-            this(null, null);
+        public Node(E e, Node next){
+            this.e = e;
+            this.next = next;
         }
 
         @Override
