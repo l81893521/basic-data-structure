@@ -133,7 +133,7 @@ public class ELinkList<E> {
      * @return
      */
     public E getLast(){
-        return get(size);
+        return get(size - 1);
     }
 
     /**
