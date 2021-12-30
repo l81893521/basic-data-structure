@@ -7,7 +7,11 @@ package will.zhang.linkList;
  **/
 public class BLinkList<E> {
 
-    //链表必须有一个类型为节点的属性, 表示链表的头
+    /*
+    链表必须有一个类型为节点的属性, 表示链表的头
+    链表在头节点添加元素是非常方便的
+    因为我们可以直接访问得到head的节点
+     */
     private Node head;
     //链表的元素个数
     private int size;
@@ -56,13 +60,13 @@ public class BLinkList<E> {
      * @param e
      */
     public void add(int index, E e){
-        if(index < 0 || index > size) {
+        if (index < 0 || index > size) {
             throw new IllegalArgumentException("Add failed. Illegal index");
         }
 
-        if(index == 0){
+        if (index == 0) {
             addFirst(e);
-        }else{
+        } else {
             //prev表示插入位置index的前一个元素, 找到它就找到了插入位置
             //这也是为什么要使用索引就不要用链表的原因
             Node prev = head;
@@ -83,7 +87,7 @@ public class BLinkList<E> {
      * 在链表的末尾添加元素
      * @param e
      */
-    public void addLast(E e){
+    public void addLast(E e) {
         add(size, e);
     }
 
