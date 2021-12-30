@@ -196,13 +196,13 @@ public class ELinkList<E> {
             prev = prev.next;
         }
 
-        Node resultNode = prev.next;
-        prev.next = resultNode.next;
-        resultNode.next = null;
+        Node delNode = prev.next;
+        prev.next = delNode.next;
+        delNode.next = null;
 
         size--;
 
-        return resultNode.e;
+        return delNode.e;
     }
 
     /**
