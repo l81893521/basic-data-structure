@@ -164,6 +164,9 @@ public class DLinkList<E> {
             builder.append(cur + "->");
             cur = cur.next;
         }
+//        for (Node cur = dummyHead.next; cur != null; cur = cur.next) {
+//            builder.append(cur + "->");
+//        }
         builder.append("NULL");
         return builder.toString();
     }
