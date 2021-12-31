@@ -71,7 +71,7 @@ public class LinkedListQueue<E> implements Queue<E> {
         if(isEmpty()){
             throw new IllegalArgumentException("Cannot dequeue from an empty queue.");
         }
-        Node  retNode = head;
+        Node retNode = head;
         head = head.next;
         retNode.next = null;
         //当head = head.next的时候, head有可能为空, 也就是链表只有一个元素的时候
